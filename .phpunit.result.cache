@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":140:{a:2:{s:7:"defects";a:1:{s:34:"Tests\ClientTest::testDirectCharge";i:4;}s:5:"times";a:1:{s:34:"Tests\ClientTest::testDirectCharge";d:0.215;}}}

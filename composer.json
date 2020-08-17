@@ -1,0 +1,29 @@
+{
+    "name": "jimchen/yii2-fulu-open-api",
+    "description": "福禄开放平台API，是福禄开放平台对外提供的安全、低成本、高可靠的虚拟充值服务。用户可以通过调用API，在任何应用、任何时间、任何地点采购虚拟商品，也可以通过用户Web控制台对数据进行简单的管理。适合各种网站、开发企业及开发者使用。",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JimChen",
+            "email": "imjimchen@163.com"
+        }
+    ],
+    "require": {
+        "lun324/open-api-sdk-php": "^2.0",
+        "yiisoft/yii2": "^2.0",
+        "jimchen/utils": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JimChen\\OpenApiSDK\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "./tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    }
+}
